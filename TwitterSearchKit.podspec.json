@@ -1,0 +1,21 @@
+{
+    "name": "TwitterSearchKit",
+    "version": "1.0.0",
+    "homepage": "http://www.applicaster.com",
+    "license": {
+        "type": "Commercial",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "Julian Gruber": "juliangruber7@gmail.com"
+    },
+    "summary": "A demo framework for fetching tweets from the Twitter API",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://github.com/juxs/TwitterSearchKit"
+    },
+    "source_files":"TwitterSearchKit/*.swift",
+    "requires_arc": true
+}
