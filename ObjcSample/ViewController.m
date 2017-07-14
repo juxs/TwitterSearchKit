@@ -25,7 +25,7 @@
     
     [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:kReuseIdentifier];
     
-    [TwitterSearchKit getTweetsWithSearchTerm:@"Radiohead" :^(NSArray<NSDictionary<NSString *,id> *> * _Nullable tweets) {
+    [TSTwitterSearchKit getTweetsWithSearchTerm:@"Radiohead" :^(NSArray<NSDictionary<NSString *,id> *> * _Nullable tweets) {
         self.tweets = tweets;
         [self.tableView reloadData];
     }];

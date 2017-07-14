@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc(TSTwitterSearchKit)
 public class TwitterSearchKit: NSObject {
     
 //MARK: - Constants
