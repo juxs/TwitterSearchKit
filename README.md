@@ -32,7 +32,7 @@ Add ```@import TwitterSearchKit;``` to the Objective C file.
 
 ### Usage
 
-First the Twitter API credentials have to be set in the AppDelegate. It must be a Base64 encoded string containing the format consumerKey:ConsumerSecret. ConsumerKey and ConsumerSecret can be obtained on https://dev.twitter.com and are used for application-only API requests
+First the Twitter API credentials have to be set in the AppDelegate. It must be a Base64 encoded string containing the format consumerKey:consumerSecret (as described [here](https://dev.twitter.com/oauth/application-only)). ConsumerKey and ConsumerSecret can be obtained on https://dev.twitter.com and are used for application-only API requests
 
 ```Swift
 func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
